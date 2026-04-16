@@ -11,3 +11,32 @@ Unlike basic line followers, this robot continuously adjusts motor speeds using 
 - Implement a **closed-loop control system**  
 - Apply **PID control algorithm** for precision  
 - Improve tracking accuracy and stability 
+---
+## 🧰 Materials
+- Arduino Uno  
+- L298N Motor Driver Module  
+- QTR Sensor Array (PID QTR)  
+- Jumper Wires  
+- 2 DC Motors  
+- 2 Battery Cells  
+---
+
+## ⚙️ System Architecture
+
+### 🔹 Inputs
+- QTR Sensor Array (line detection)
+
+### 🔹 Controller
+- Arduino Uno
+
+### 🔹 Outputs
+- L298N Motor Driver
+- 2 DC Motors
+
+---
+## 🔄 How It Works
+1. Sensors detect the line position  
+2. Arduino calculates the error  
+3. PID algorithm computes correction  
+4. Motor speeds are adjusted  
+5. Robot follows the line smoothly  
